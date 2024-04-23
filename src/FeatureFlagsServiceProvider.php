@@ -10,7 +10,7 @@ class FeatureFlagsServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::directive('feature', function ($expression) {
-            return "<?php if (\\Ahmadrosid\\Features\\Features::enabled({$expression}): ?>";
+            return "<?php if (\\Ahmadrosid\\FeatureFlags\\Features::enabled({$expression})) : ?>";
         });
 
         Blade::directive('endfeature', function () {
