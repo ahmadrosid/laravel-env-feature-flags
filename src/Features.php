@@ -1,6 +1,6 @@
 <?php
 
-namespace Ahmadrosid\Features;
+namespace Ahmadrosid\FeatureFlags;
 
 use Illuminate\Support\Env;
 

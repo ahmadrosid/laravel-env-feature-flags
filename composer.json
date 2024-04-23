@@ -1,11 +1,11 @@
 {
-    "name": "ahmadrosid/laravel-features",
+    "name": "ahmadrosid/laravel-feature-flags",
     "description": "A simple package for managing feature flags in Laravel applications using environment variables.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ahmadrosid\\Features\\": "src/"
+            "Ahmadrosid\\FeatureFlags\\": "src/"
         }
     },
     "authors": [

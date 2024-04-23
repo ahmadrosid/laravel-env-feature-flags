@@ -5,7 +5,7 @@ Sometimes, you want to develop a feature that you want to test in production, bu
 ## Install
 
 ```bash
-composer require ahmadrosid/laravel-features
+composer require ahmadrosid/laravel-feature-flags
 ```
 
 **Define Feature Flags in `.env`**: 
@@ -22,7 +22,7 @@ FEATURE_PAYMENT_GATEWAY=false
 You can use the Features facade provided by the package to check the status of your feature flags:
 
 ```php
-use Ahmadrosid\Features\Features;
+use Ahmadrosid\FeatureFlags\Features;
 
 if (Features::enabled('new_design')) {
     // Code for the new design feature
