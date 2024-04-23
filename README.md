@@ -38,3 +38,7 @@ Note that the enabled method expects a snake_case string as the feature name, so
     <!-- Code for the old design -->
 @endfeature
 ```
+
+## LICENSE
+
+MIT
