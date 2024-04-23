@@ -5,7 +5,7 @@ Sometimes, you want to develop a feature that you want to test in production, bu
 ## Install
 
 ```bash
-composer require ahmadrosid/laravel-feature-flags
+composer require ahmadrosid/laravel-env-feature-flags
 ```
 
 **Define Feature Flags in `.env`**: 

@@ -1,5 +1,5 @@
 {
-    "name": "ahmadrosid/laravel-feature-flags",
+    "name": "ahmadrosid/laravel-env-feature-flags",
     "description": "A simple package for managing feature flags in Laravel applications using environment variables.",
     "type": "library",
     "license": "MIT",
