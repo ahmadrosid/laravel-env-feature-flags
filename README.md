@@ -1,6 +1,6 @@
 ## Laravel Feature Flag
 
-Sometimes, you want to develop a feature that you want to test in production, but you don't want your users to see it yet. Using an environment variable file `.env` is a perfect use case for this situation. This package will streamline the process.
+Sometimes, you need to develop a feature that you need to test in production, but you don't want your users to see it yet. Using an environment variable file `.env` is a perfect use case for this situation. This package will streamline the process.
 
 ## Install
 
