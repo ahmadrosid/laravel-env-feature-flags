@@ -1,5 +1,4 @@
 <?php
-
 namespace Ahmadrosid\FeatureFlags;
 
 use Illuminate\Support\ServiceProvider;
@@ -15,6 +14,10 @@ class FeatureFlagsServiceProvider extends ServiceProvider
 
         Blade::directive('endfeature', function () {
             return "<?php endif; ?>";
+        });
+
+        Blade::if('hasAccess', function ($feature) {
+            return Features::enabled($feature);
         });
     }
 }

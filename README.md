@@ -47,6 +47,24 @@ If you want to conditionally render parts of your Blade templates based on featu
 @endfeature
 ```
 
+You can also use Blade directive called `@hasAccess`. This directive can be used in your Blade templates to check if the current user has access to a specific feature. If the user doesn't have access, you can display a message or perform any other action you need.
+
+```php
+@hasAccess('new_design')
+    <!-- Code for the new design feature -->
+@else
+    <div class="alert alert-warning">
+        You don't have access to the new design feature.
+    </div>
+@endhasAccess
+```
+
+To enable this you need to add this flag in you `.env` file.
+
+```bash
+FEATURE_NEW_DESIGN_USERS=1,2,3
+```
+
 ## LICENSE
 
 MIT
