@@ -1,4 +1,5 @@
 <?php
+
 namespace Ahmadrosid\FeatureFlags;
 
 use Illuminate\Support\ServiceProvider;
